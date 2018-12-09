@@ -1,2 +1,2 @@
 # Osu-Player
-Run run.sh to start application
+Copy your songs folder from your osu folder into the root folder then run run.sh to start application
