@@ -1,0 +1,24 @@
+{
+  "name": "osusongplayer",
+  "version": "1.0.0",
+  "description": "Plays osu songs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "build": {
+    "appId": "OsuSongPlayer",
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "devDependencies": {
+    "electron-builder": "^20.38.2"
+  }
+}

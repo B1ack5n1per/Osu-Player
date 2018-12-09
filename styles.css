@@ -1,0 +1,133 @@
+:root {
+  --Primary: #fb2d2d;
+  --White: #f0efff;
+  --Light: #add2e0;
+  --Dark: #02264a;
+  --Background: #0b1022;
+}
+
+body {
+  background: var(--Background);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin: 0;
+}
+
+button {
+  background: var(--White);
+  border: none;
+  padding: 0.25rem 0.5rem;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+button:hover {
+  background: var(--Primary);
+  color: #FFF;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+a:hover {
+  color: var(--Primary);
+}
+
+.control {
+  margin-right: 0.5rem;
+}
+
+.control-btns {
+  color: var(--White);
+}
+
+.hidden {
+  display: none !important;
+}
+
+#controls {
+  text-align: center;
+  padding-top: 1rem;
+  position: fixed;
+  bottom: 1rem;
+  width: 100%;
+}
+
+.display {
+  color: var(--Primary);
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+#logo {
+  height: 5rem;
+  width: auto;
+}
+
+#title {
+  position: absolute;
+  left: calc(50% - 133px);
+  margin: 0;
+  top: 1rem;
+  font-size: 3rem;
+}
+
+#col {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+#song-title {
+  color: var(--Light);
+}
+
+header {
+  background: var(--Light);
+  padding: 0 1rem;
+  height: calc(5rem + 5px);
+}
+
+#volume {
+  -webkit-appearance: none;
+  height: 0.75rem;
+  background: var(--Light);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+#volume::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  background: var(--Primary);
+}
+
+#vol-ctrl {
+  display: inline;
+}
+
+.vol {
+  width: 54px;
+}
+
+.buttons {
+  width: 35%;
+  height: 10rem;
+  padding: 1rem;
+}
+
+.buttons button {
+  width: 100%;
+  text-align: center;
+  margin: 0.25rem 0;
+  display: block;
+  border-radius: 1.125rem;;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+}
